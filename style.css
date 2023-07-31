@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.game-over {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-over h1 {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.inner-game-over {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button.game-over-btn{
+    height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: medium;
+}
+.player-ui{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.health-points {
+    width: 33%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hp-container{
+    min-width: 300px;
+    height: 70px;
+    border:2px solid black;
+    background-color: white;
+}
+
+.hp-bar{
+    background-color: greenyellow;
+    height: 100%;
+    width: 100%;
+}
+
+.score{
+    width: 33%;
+    height: 120px;
+    display: flex;
+    /* background-color: #0000003c; */
+    justify-content: center;
+    align-items: center; 
+}
+
+.score-container{
+    /* width: 100%; */
+    /* min-width: 300px; */
+    height: 70px;
+    background-color: white;
+    /* border:2px solid black;    */
+}
+
+.score-text{
+    font-family: 'VT323', monospace;
+    font-size: 60px;
+}
